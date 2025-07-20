@@ -1,0 +1,14 @@
+# Railway deployment configuration
+# Place this file in the root of your repository
+
+# Backend service will be deployed from /backend directory
+# Frontend will be deployed separately to Vercel/Netlify
+
+# Environment variables to set in Railway dashboard:
+# - SEARCHAPI_KEY=your_yahoo_search_api_key
+# - DATABASE_URL=postgresql://... (auto-provided by Railway)
+# - REDIS_URL=redis://... (if you add Redis service)
+
+# Railway will automatically detect Python and install from requirements.txt
+# Start command: python -m uvicorn simple_main:app --host 0.0.0.0 --port $PORT
+# Root directory: backend
