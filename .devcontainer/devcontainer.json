@@ -1,0 +1,22 @@
+{
+  "name": "Advanced Search Engine Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 8000, 8001, 8002],
+  "postCreateCommand": "cd frontend && npm install && cd ../backend && pip install -r requirements.txt",
+  "postStartCommand": "echo 'Ready to develop! Run: npm start (frontend) and python -m uvicorn simple_main:app --reload (backend)'"
+}

@@ -1,5 +1,9 @@
 # Advanced Search Engine Project
 
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Wrecker-0104/advanced-search-engine)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/fastapi)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Wrecker-0104/advanced-search-engine)
+
 ## 🚀 Project Overview
 
 This is a comprehensive, production-ready search engine built with modern technologies and algorithms similar to those used by Google. The project now includes **real web search integration** via Yahoo Search API.
